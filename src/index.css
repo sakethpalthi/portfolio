@@ -1,0 +1,21 @@
+/* src/index.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background: transparent; /* Let video show through */
+  color: white;
+}
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+

@@ -1,0 +1,95 @@
+.coding-profiles {
+  padding: 4rem 8%;
+  background: transparent; /* Fully transparent */
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+/* Gradient heading */
+.coding-profiles h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, violet, deeppink, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Supporting paragraph style */
+.coding-profiles > p {
+  font-size: 1.2rem;
+  color: #eee;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Individual card links */
+.profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1.5px solid #444;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: transparent; /* Make card background transparent */
+  color: white;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.04);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.profile-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+}
+
+.profile-card img {
+  height: 40px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.profile-card span {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-right: auto;
+  color: #fff;
+}
+
+.profile-card p {
+  color: #00ff80;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.arrow {
+  color: #00ff80;
+  font-size: 1.2rem;
+}
+
+/* Mobile-friendly */
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1.2rem;
+  }
+
+  .profile-card span,
+  .profile-card p {
+    margin: 0;
+  }
+
+  .profile-card img {
+    margin-bottom: 0.5rem;
+  }
+}

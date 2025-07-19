@@ -1,0 +1,3 @@
+[submodule "src/components/Hero"]
+	path = src/components/Hero
+	url = https://github.com/VarunKumar310/hero-component.git
